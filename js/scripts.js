@@ -992,16 +992,16 @@ $('#mdi-study').on('click', function () {
     window.open('https://www.fdic.gov/regulations/resources/minority/study.html', '_blank');
 });
 
-$('#mdis-cdfi-news').on('click', function () {
+$('#mdis-cdfi-stability').on('click', function () {
     window.open('https://www.nationalbankers.org/press-releases-1/statement-from-the-national-bankers-association-on-silicon-valley-bank-and-signature-bank', '_blank');
 });
 
-$('#mdis-cdfi-stability').on('click', function () {
+$('#mdis-cdfi-news').on('click', function () {
     window.open('https://www.bloomberg.com/news/videos/2023-03-20/minority-banks-are-well-capitalized-elam-video', 'blank');
 });
 
 $('#us-treasury-support').on('click', function () {
-    window.open('https://www.bloomberg.com/news/videos/2023-03-20/minority-banks-are-well-capitalized-elam-video', 'blank');
+    window.open('https://home.treasury.gov/news/press-releases/jy1397', 'blank');
 });
 
 const legendItems = [
