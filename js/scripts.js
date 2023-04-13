@@ -1,4 +1,4 @@
-// a crowdsourced dataset of favorite pizza places we made in class
+// a list of MDIs and CDFIs in New York City sourced from FDIC.gov
 const pizzaData = [
 
     {
@@ -978,7 +978,7 @@ pizzaData.forEach(function (pizzaRecord) {
 
     // map center point
     new mapboxgl.Marker({
-        color: color       
+        color: color
     })
         .setLngLat([pizzaRecord.longitude, pizzaRecord.latitude])
         .setPopup(popup)

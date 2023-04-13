@@ -45,9 +45,11 @@ body {
   font-size: 10px;
   z-index: 1;
 }
+
 .legend-item {
   margin-bottom: 5px;
 }
+
 .legend-color {
   display: inline-block;
   width: 15px;
@@ -102,4 +104,3 @@ body {
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
-
