@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MDIs and CDFIs in New York City</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="title">
+            Minority Depository Institutions (MDI) and Community Development Financial Institutions (CDFI) in New York
+            City
+        </div>
+        <div class="description">
+            This map depicts a dataset of Minority Banks and Community Development Financial Institution Banks sourced from FDIC.gov,
+            located in New York City. MDIs and CDFIs are mission-driven banks that support minority and low-income populations within their communities.
+        </div>
+        <div class="description">
+            Click a marker to see the MDI or CDFI's information and location.
+        </div>
+        <div class="description">
+            Color of marker denotes MDI or CDFI status.
+        </div>
+        <div class="description">
+            Click a button below to learn more about MDIs and CDFIs.
+        </div>
+        <!-- HTML !-->
+        <button id="mdi-study" class="button-18" role="button">FDIC MDI Study</button>
+        <button id="mdis-cdfi-news" class="button-18" role="button">MDIs and CDFIs in the News</button>
+        <button id="mdis-cdfi-stability" class="button-18" role="button">MDI and CDFI Stability</button>
+        <button id="us-treasury-support" class="button-18" role="button">US Treasury Support for MDIs and CDFIs</button>
+        </div>
+    
+        <div id="legend"></div>
+        <div></div>
+
+
+
+    <div id="map"></div>
+           <div></div>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+
+</html>
