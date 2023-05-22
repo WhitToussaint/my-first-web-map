@@ -945,7 +945,7 @@ const map = new mapboxgl.Map({
 
 pizzaData.forEach(function (pizzaRecord) {
     // create the popup
-    const popup = new mapboxgl.Popup({ offset: 25 }).setText(
+    const popup = new mapboxgl.Popup({ offset: 30 }).setText(
         `${pizzaRecord['first-name']} ${pizzaRecord['pizza-shop-name']} location on ${pizzaRecord.place}. (${pizzaRecord.program})`
     );
 
